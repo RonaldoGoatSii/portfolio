@@ -2,27 +2,46 @@
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
-    <title>Projetos</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Os meus Projetos - Portfólio</title>
+
+    <link rel="stylesheet" href="style.css"> 
+    <style>
+        .tech-badge {
+            background-color: #eee;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.9em;
+            margin-right: 5px;
+            color: #333;
+        }
+        .card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+    </style>
 </head>
 <body>
 
-<header class="header-container">
-    <img src="img/ETIC_Algarve-Logo-Horizontal-Black-02@4x.png">
-</header>
-
 <div class="page-container">
-    <h1>Meus Projetos</h1>
+    <h1>Os meus Projetos</h1>
     <hr>
 
-    <div class="card">
-        <h3>Fitness Tracker</h3>
-        <p>Aplicação web para criação de treinos personalizados por grupos musculares.</p>
-        <p>Tecnologias: HTML, CSS, JavaScript</p>
-        <a href="TEU_PROJETO/index.html" target="_blank">Ver Projeto</a>
-    </div>
+   <div class="card">
+    <h3>Fitness Tracker</h3>
+    <p>Aplicação web para criação de treinos personalizados por grupos musculares.</p>
+    <p>Tecnologias: HTML, CSS, JavaScript</p>
 
-    <a href="index.html" class="back-btn">← Voltar</a>
+    <a href="https://ronaldogoatsii.github.io/fitnessTracker/" target="_blank">Ver Projeto</a>
+</div>
+
+    <br>
+    <a href="index.html" class="back-btn">← Voltar para a Home</a>
 </div>
 
 </body>
